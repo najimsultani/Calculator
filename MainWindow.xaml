@@ -1,0 +1,31 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="357">
+    <Grid>
+        <Canvas Background="Black">
+            <TextBox x:Name="Txtresult" Canvas.Left="23" TextWrapping="Wrap" Canvas.Top="67" Width="168" Height="53" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="7" Canvas.Left="10" Canvas.Top="189" Height="50" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="8" Canvas.Left="94" Canvas.Top="187" Height="51" Width="68" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="9" Canvas.Left="178" Canvas.Top="187" Height="53" Width="66" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"/>
+            <Button x:Name="divide" Content="/" Canvas.Left="265" Canvas.Top="187" Height="56" Width="55" HorizontalAlignment="Center" VerticalAlignment="Top" Click="divide_Click"/>
+            <Button Content="4" Canvas.Left="10" Canvas.Top="240" Height="50" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="5" Canvas.Left="94" Canvas.Top="238" Height="51" Width="68" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="6" Canvas.Left="178" Canvas.Top="240" Height="52" Width="66" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button x:Name="mulbotton" Content="*" Canvas.Left="265" Canvas.Top="243" Height="52" Width="55" HorizontalAlignment="Center" VerticalAlignment="Top" Click="mulbotton_Click"/>
+            <Button Content="1" Canvas.Left="10" Canvas.Top="290" Height="50" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="2" Canvas.Left="94" Canvas.Top="289" Height="51" Width="68" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="3" Canvas.Left="178" Canvas.Top="292" Height="52" Width="66" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button x:Name="addbotton" Content="+" Canvas.Left="265" Canvas.Top="295" Height="52" Width="55" HorizontalAlignment="Center" VerticalAlignment="Top" Click="addbotton_Click"/>
+            <Button Content="." Canvas.Left="10" Canvas.Top="341" Height="55" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button Content="0" Canvas.Left="94" Canvas.Top="340" Height="56" Width="68" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click"/>
+            <Button x:Name="equalto" Content="=" Canvas.Left="178" Canvas.Top="344" Height="52" Width="66" HorizontalAlignment="Center" VerticalAlignment="Top" Click="equalto_Click"/>
+            <Button x:Name="subbotton" Content="-" Canvas.Left="265" Canvas.Top="347" Height="49" Width="55" HorizontalAlignment="Center" VerticalAlignment="Top" Click="subbotton_Click"/>
+            <Button x:Name="Clear" Content="Clear" Canvas.Left="235" Canvas.Top="67" Height="53" Width="85" HorizontalAlignment="Center" VerticalAlignment="Center" Click="clear_Click_1" FontFamily="Arial Black" FontSize="22"/>
+        </Canvas>
+        
+    </Grid>
+</Window>
